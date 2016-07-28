@@ -10,9 +10,9 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/a上下文菜单" />
             <option value="$PROJECT_DIR$/navigationdrawer" />
             <option value="$PROJECT_DIR$/navigationview" />
+            <option value="$PROJECT_DIR$/tablayout" />
             <option value="$PROJECT_DIR$/test" />
           </set>
         </option>
@@ -20,9 +20,9 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/a上下文菜单" />
             <option value="$PROJECT_DIR$/navigationdrawer" />
             <option value="$PROJECT_DIR$/navigationview" />
+            <option value="$PROJECT_DIR$/tablayout" />
             <option value="$PROJECT_DIR$/test" />
           </set>
         </option>

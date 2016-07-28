@@ -1,4 +1,4 @@
-package com.example.a;
+package com.example.tablayout;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

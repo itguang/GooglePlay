@@ -1,4 +1,4 @@
-package com.example.a;
+package com.example.tablayout;
 
 import org.junit.Test;
 
