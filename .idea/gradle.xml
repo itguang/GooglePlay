@@ -10,6 +10,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/coordinatorlayout" />
+            <option value="$PROJECT_DIR$/floatingactionbutton" />
             <option value="$PROJECT_DIR$/navigationdrawer" />
             <option value="$PROJECT_DIR$/navigationview" />
             <option value="$PROJECT_DIR$/tablayout" />
@@ -20,6 +22,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/coordinatorlayout" />
+            <option value="$PROJECT_DIR$/floatingactionbutton" />
             <option value="$PROJECT_DIR$/navigationdrawer" />
             <option value="$PROJECT_DIR$/navigationview" />
             <option value="$PROJECT_DIR$/tablayout" />

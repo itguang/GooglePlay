@@ -1,1 +1,1 @@
-include ':app', ':test', ':navigationdrawer', ':navigationview', ':tablayout'
+include ':app', ':test', ':navigationdrawer', ':navigationview', ':tablayout', ':floatingactionbutton', ':coordinatorlayout'

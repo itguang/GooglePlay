@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/GooglePlay.iml" filepath="$PROJECT_DIR$/GooglePlay.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coordinatorlayout/coordinatorlayout.iml" filepath="$PROJECT_DIR$/coordinatorlayout/coordinatorlayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/floatingactionbutton/floatingactionbutton.iml" filepath="$PROJECT_DIR$/floatingactionbutton/floatingactionbutton.iml" />
       <module fileurl="file://$PROJECT_DIR$/navigationdrawer/navigationdrawer.iml" filepath="$PROJECT_DIR$/navigationdrawer/navigationdrawer.iml" />
       <module fileurl="file://$PROJECT_DIR$/navigationview/navigationview.iml" filepath="$PROJECT_DIR$/navigationview/navigationview.iml" />
       <module fileurl="file://$PROJECT_DIR$/tablayout/tablayout.iml" filepath="$PROJECT_DIR$/tablayout/tablayout.iml" />
