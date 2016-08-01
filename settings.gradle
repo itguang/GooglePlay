@@ -1,1 +1,1 @@
-include ':app', ':test', ':navigationdrawer', ':navigationview', ':tablayout', ':floatingactionbutton', ':coordinatorlayout', ':myapplication'
+include ':app', ':test', ':navigationdrawer', ':navigationview', ':tablayout', ':floatingactionbutton', ':coordinatorlayout', ':myapplication', ':okhttp', ':lrucache'

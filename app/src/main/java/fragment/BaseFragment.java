@@ -56,7 +56,8 @@ public abstract class BaseFragment extends Fragment {
                     return BaseFragment.this.createSuccessView();
                 }
             };//new 一个真布局,显示当前页面的不同界面,根据加载状态不同,添加不同的显示界面.
-        }else{
+        }
+        else{
             //添加之前先把 framenlayout 的爹干掉
             ViewUtils.removeParentView(loadingPager);
         }

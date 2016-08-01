@@ -10,6 +10,7 @@ import android.widget.FrameLayout;
 import com.example.dell_pc.googleplay.R;
 
 import fragment.BaseFragment;
+import manager.ThreadManager;
 import tools.UiUtils;
 
 /**
@@ -154,28 +155,29 @@ public abstract class LoadingPager extends FrameLayout {
      */
     public void show() {
         if (state == STATE_ERROR || state == STATE_EMPTY) {
-//            System.out.println("返回状态"+state);
             state = STATE_LOADING;
+            showPage(); // 状态改变了,重新判断当前应该显示哪个界面
         }
         // 请求服务器 获取服务器上数据 进行判断
         // 请求服务器 返回一个结果
-        new Thread() {
+        ThreadManager.getInstance().createLongPool().execute(new Runnable() {
+            @Override
             public void run() {
-                SystemClock.sleep(2000);
-                showPage(); // 状态改变了,重新判断当前应该显示哪个界面
-                final BaseFragment.LoadResult result = load();
-                UiUtils.runOnUiThread(new Runnable() {
-                    @Override
-                    public void run() {
-                        if (result != null) {
-                            state = result.getValue();
-                            System.out.println("返回状态"+state);
-                            showPage(); // 状态改变了,重新判断当前应该显示哪个界面
+                    SystemClock.sleep(2000);
+                    final BaseFragment.LoadResult result = load();
+                    UiUtils.runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            if (result != null) {
+                                state = result.getValue();
+                                System.out.println("返回状态"+state);
+                                showPage(); // 状态改变了,重新判断当前应该显示哪个界面
+                            }
                         }
-                    }
-                });
-            }
-        }.start();
+                    });
+                }
+        });
+
         showPage();
     }
     /**
