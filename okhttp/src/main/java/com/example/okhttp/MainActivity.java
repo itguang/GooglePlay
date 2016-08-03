@@ -25,7 +25,6 @@ import org.json.JSONObject;
 
 import java.io.IOException;
 
-import butterknife.Bind;
 import butterknife.ButterKnife;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -33,15 +32,15 @@ import okhttp3.Response;
 
 
 public class MainActivity extends AppCompatActivity {
-    @Bind(R.id.button)
+    @butterknife.BindView(R.id.button)
     Button button;
-    @Bind(R.id.textView)
+    @butterknife.BindView(R.id.textView)
     TextView textView;
 
-    @Bind(R.id.button2)
+    @butterknife.BindView(R.id.button2)
     Button button2;
 
-    @Bind(R.id.button3)
+    @butterknife.BindView(R.id.button3)
     Button button3;
     public static final String SERVERURL = "http://172.28.21.68:8080/WebInfos/app/homelist0";
     public static final String imageUrl = "http://avatar.csdn.net/8/B/B/1_sinyu890807.jpg";
@@ -58,13 +57,13 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     };
-    @Bind(R.id.image)
+    @butterknife.BindView(R.id.image)
     ImageView image;
-    @Bind(R.id.button4)
+    @butterknife.BindView(R.id.button4)
     Button button4;
-    @Bind(R.id.button5)
+    @butterknife.BindView(R.id.button5)
     Button button5;
-    @Bind(R.id.iv_netWorkImage)
+    @butterknife.BindView(R.id.iv_netWorkImage)
     NetworkImageView ivNetWorkImage;
 
 
