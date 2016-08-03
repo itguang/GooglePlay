@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/coordinatorlayout/coordinatorlayout.iml" filepath="$PROJECT_DIR$/coordinatorlayout/coordinatorlayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/floatingactionbutton/floatingactionbutton.iml" filepath="$PROJECT_DIR$/floatingactionbutton/floatingactionbutton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imageloader/imageloader.iml" filepath="$PROJECT_DIR$/imageloader/imageloader.iml" />
       <module fileurl="file://$PROJECT_DIR$/lrucache/lrucache.iml" filepath="$PROJECT_DIR$/lrucache/lrucache.iml" />
       <module fileurl="file://$PROJECT_DIR$/myapplication/myapplication.iml" filepath="$PROJECT_DIR$/myapplication/myapplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/navigationdrawer/navigationdrawer.iml" filepath="$PROJECT_DIR$/navigationdrawer/navigationdrawer.iml" />
