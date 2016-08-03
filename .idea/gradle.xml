@@ -21,6 +21,7 @@
             <option value="$PROJECT_DIR$/picasso" />
             <option value="$PROJECT_DIR$/tablayout" />
             <option value="$PROJECT_DIR$/test" />
+            <option value="$PROJECT_DIR$/xutils" />
           </set>
         </option>
         <option name="myModules">
@@ -38,6 +39,7 @@
             <option value="$PROJECT_DIR$/picasso" />
             <option value="$PROJECT_DIR$/tablayout" />
             <option value="$PROJECT_DIR$/test" />
+            <option value="$PROJECT_DIR$/xutils" />
           </set>
         </option>
       </GradleProjectSettings>
